@@ -11,7 +11,7 @@ C# Code:
         {
             public main()
             {
-            InitializeComponent();
+                InitializeComponent();
             }
 
             images0 save = new images0();
@@ -29,7 +29,7 @@ C# Code:
             {
                 s.Filter = "JPG |*.jpg";
                 s.ShowDialog();
-                save.SaveToJpg(img, s.FileName);
+                save.SaveToJpg(img, s.FileName); // a single line of code you need to do.
             }
         }
     }
